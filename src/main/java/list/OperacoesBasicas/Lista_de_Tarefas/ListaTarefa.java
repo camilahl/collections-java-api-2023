@@ -70,5 +70,8 @@ public class ListaTarefa {
 
         // Exibindo o número total de tarefas na lista após tentar remover de uma lista vazia
         System.out.println("Agora você tem " + listaTarefa.obterNumeroTotalTarefas() + " tarefas na lista:");
+
+        // Exibindo as descrições das tarefas atualizadas na lista
+        listaTarefa.obterDescricoesTarefas();
     }
 }
